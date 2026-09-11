@@ -10,7 +10,7 @@ sections:
     content:
       title: Research
       text: 
-      footer: 'More early-stage projects are listed on my [CV](/uploads/Joyce_Academic_CV.pdf).'
+      footer: 'More work-in-progress projects are listed on my [CV](/uploads/Joyce_Academic_CV.pdf).'
       count: 4
       sort_by: Weight
       sort_ascending: true
