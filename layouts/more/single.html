@@ -1,0 +1,25 @@
+{{ define "main" }}
+<article class="more-page">
+  <h1>{{ .Title }}</h1>
+  <div class="more-intro">{{ .Content }}</div>
+  <div class="more-gallery" role="group" aria-label="Photo gallery">
+    {{ range $index, $photo := .Params.photos }}
+      <figure>
+        {{ if fileExists (printf "static/%s" $photo.image) }}
+          <img src="{{ $photo.image | relURL }}" alt="{{ $photo.alt }}" width="800" height="600" loading="lazy" decoding="async">
+        {{ else }}
+          <div class="more-photo-placeholder" role="img" aria-label="Photo {{ add $index 1 }} placeholder">
+            <svg viewBox="0 0 64 48" width="64" height="48" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+              <rect x="1" y="1" width="62" height="46" rx="5" />
+              <circle cx="45" cy="14" r="5" />
+              <path d="M2 39 20 20 34 35 44 26 62 43" />
+            </svg>
+            <span>Photo {{ add $index 1 }}</span>
+          </div>
+        {{ end }}
+        {{ with $photo.caption }}<figcaption>{{ . }}</figcaption>{{ end }}
+      </figure>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

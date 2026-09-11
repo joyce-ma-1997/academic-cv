@@ -2,7 +2,7 @@
 title: "An example journal article"
 authors:
 - me
-- Robert Ford
+- Aaron Chatterji
 author_notes:
 - "Equal contribution"
 - "Equal contribution"

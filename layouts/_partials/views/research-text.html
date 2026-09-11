@@ -1,0 +1,29 @@
+{{ $item := .item }}
+<article class="research-paper" style="margin-bottom: 2.5rem;">
+  <h3 style="font-size: 1.4rem; font-weight: 600; line-height: 1.35; margin: 0;">
+    {{ with $item.Params.draft_url }}
+      <a href="{{ . | relURL }}" style="text-decoration: underline; text-underline-offset: 0.15em;">{{ $item.Title }}</a>
+    {{ else }}
+      {{ $item.Title }}
+    {{ end }}
+  </h3>
+  {{ $coauthors := slice }}
+  {{ $owner := hugo.Data.authors.me }}
+  {{ $ownerNames := slice "me" ($owner.name.display | default "" | urlize) ($owner.name.alternate | default "" | urlize) }}
+  {{ range $item.Params.authors }}
+    {{ $slug := . | urlize }}
+    {{ if not (in $ownerNames $slug) }}
+      {{ $profile := partial "functions/get_author_profile" (dict "slug" $slug "title" .) }}
+      {{ $coauthors = $coauthors | append ($profile.title | default .) }}
+    {{ end }}
+  {{ end }}
+  {{ with $coauthors }}
+    <div class="research-coauthors" style="margin-top: 0.5rem;">with {{ delimit . ", " }}</div>
+  {{ end }}
+  {{ with $item.Params.outlet }}
+    <div style="margin-top: 0.5rem; font-style: italic;">{{ . | markdownify }}</div>
+  {{ end }}
+  {{ with $item.Params.abstract }}
+    <div style="margin-top: 1rem; line-height: 1.7;">{{ . | markdownify }}</div>
+  {{ end }}
+</article>

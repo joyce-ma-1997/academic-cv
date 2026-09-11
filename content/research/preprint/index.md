@@ -1,7 +1,15 @@
 ---
-title: "An example preprint / working paper"
+title: "Political Entrepreneurs"
+weight: 2
+# Link to your actual draft, e.g. /uploads/political-entrepreneurs.pdf
+draft_url: "https://www.nber.org/papers/w35637"
+# Publication outlet and/or review status, displayed below the authors.
+outlet: "Academy of Management Proceedings, NBER Working Paper No.35637, Under Review at Management Science"
 authors:
 - me
+- Aaron Chatterji
+- Jorge Guzman
+- Ryan McDevitt
 date: "2019-04-07T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
@@ -23,12 +31,13 @@ funding:
   - funder: "Wellcome Trust"
     grant: "WT-219123/Z/19/Z"
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: How do entrepreneurs shape public policy when they hold political office themselves? We study this question using a novel dataset linking state legislators’ financial disclosures to bill sponsorship across 26 U.S. states from 2009 to 2023. Using bill text, we classify legislation into pro-business and pro-entry categories. Entrepreneurs account for over 40 percent of state legislators. While they do not sponsor more legislation overall or act as generic advocates for business, they are more likely to take the lead in sponsoring bills and selectively advance pro-entry policies, particularly those related to deregulation and innovation. The findings reveal an important channel through which entrepreneurs shape the policy environment from within political institutions.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
 tags:
+- preprint
 - Large Language Models
 
 featured: true

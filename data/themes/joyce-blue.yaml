@@ -1,0 +1,31 @@
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "Joyce Blue"
+  type: dual
+  light:
+    colors:
+      primary: "#00539B"
+      secondary: "#012169"
+    surfaces:
+      background: "#ffffff"
+      foreground: "#172b4d"
+      header:
+        background: "#012169"
+        foreground: "#ffffff"
+      footer:
+        background: "#f0f5fa"
+        foreground: "#012169"
+  dark:
+    colors:
+      primary: "#00539B"
+      secondary: "#012169"
+    surfaces:
+      background: "#0b1426"
+      foreground: "#edf4fc"
+      header:
+        background: "#012169"
+        foreground: "#ffffff"
+      footer:
+        background: "#101f38"
+        foreground: "#edf4fc"

@@ -1,0 +1,14 @@
+  {{ with .page.content.footer }}
+    <style>
+      .research-footer a {
+        text-decoration: underline;
+        text-decoration-thickness: 2px;
+        text-underline-offset: 0.2em;
+      }
+      .research-footer a:hover {
+        text-decoration-thickness: 3px;
+      }
+    </style>
+    <p class="research-footer" style="margin-top: 1rem; font-size: 1.25rem; font-weight: 700; line-height: 1.5;">{{ . | markdownify }}</p>
+  {{ end }}
+</div>
