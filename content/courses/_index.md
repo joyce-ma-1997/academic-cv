@@ -33,7 +33,7 @@ sections:
         I have taught or am scheduled to teach full courses or selected sessions in:
 
         - Intermediate Econometrics
-        - Strategy 840 Emerging Market Strategy
+        - Strategy 840: Emerging Market Strategy
         - Fuqua PhD Summer Camp: Econometrics
         - I&E 101: Innovation, Creativity, & Entrepreneurial Mindset
 ---
