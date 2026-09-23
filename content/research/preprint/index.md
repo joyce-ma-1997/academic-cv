@@ -4,7 +4,7 @@ weight: 2
 # Link to your actual draft, e.g. /uploads/political-entrepreneurs.pdf
 draft_url: "https://www.nber.org/papers/w35637"
 # Publication outlet and/or review status, displayed below the authors.
-outlet: "Academy of Management Proceedings, NBER Working Paper No.35637, Under Review at Management Science"
+outlet: "Academy of Management Proceedings, NBER Working Paper No.35637, Under Review"
 authors:
 - me
 - Aaron Chatterji
