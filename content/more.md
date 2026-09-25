@@ -28,6 +28,6 @@ photos:
     caption: ""
 ---
 
-I was born in Beijing, China. Outside of research, I enjoy staying active and spending time outdoors. Tennis is my favorite sport, and I won a mixed doubles championship in a college tournament. I also enjoy table tennis, badminton, swimming, hiking, camping, and exploring nature.
+I was born in Beijing, China. Outside of research, I enjoy staying active and spending time outdoors. Tennis is my favorite sport, and I won a mixed doubles championship in a college tournament. I also enjoy table tennis, badminton, swimming, skiing, running, hiking, camping, and exploring nature.
 
 I am a native Mandarin speaker and proficient in English. I am currently learning Hindi as my third language.
