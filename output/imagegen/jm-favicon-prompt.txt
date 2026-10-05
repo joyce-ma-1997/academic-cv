@@ -1,0 +1,11 @@
+Tool: built-in image_gen (not CLI)
+Final PNG: assets/media/icon.png
+Final dimensions: 512 x 512 pixels
+Background: exact sRGB #012169 (RGB 1, 33, 105)
+Letter interiors: pure white #FFFFFF
+Preparation: resized the edited generated artwork to 512 x 512, then normalized the background and letter interiors with ImageMagick while retaining antialiased edges. Verified PNG dimensions and exact background pixels.
+
+Original generation prompt:
+Use case: logo-brand. Asset type: personal academic website favicon, a single square PNG intended to be 512 × 512 pixels. Create a minimal flat icon: solid blue (#00539B) background filling the entire square, with the exact text "JM" in pure white (#FFFFFF). Typography: bold, clean sans-serif uppercase letters, J then M, on one line. Center the initials optically horizontally and vertically; the letter group should occupy about 65% of the square width, with generous even padding and crisp edges, remaining legible at 32 × 32 pixels. No additional text, border, gradients, shadows, texture, illustration, decoration, watermark, mockup, perspective, or rounded outer corners. Deliver only the icon artwork.
+Final edit prompt:
+Use case: precise-object-edit. Edit this existing personal website favicon. Change only the blue background to a perfectly uniform solid dark blue with exact sRGB color #012169 (RGB 1, 33, 105). Preserve the existing white uppercase "JM" text, bold sans-serif typeface, letter shapes, scale, spacing, centering, square layout and padding. The letter interiors must be pure white #FFFFFF. No gradient, texture, lighting, shadow, border, or other element. Output only the square icon artwork, intended for a 512 × 512 pixel PNG.
