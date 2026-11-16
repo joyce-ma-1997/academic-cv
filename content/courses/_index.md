@@ -29,6 +29,7 @@ sections:
         - STRATEGY 841: Strategy Implementation
         - STRATEGY 557K: Principles of Strategy
         - STRATEGY 559Q: People Analytics
+        - STRATEGY 838: Entrepreneurial Strategy
         - I&E 101: Innovation, Creativity, & Entrepreneurial Mindset
 
         I have taught or am scheduled to teach full courses or selected sessions in:
